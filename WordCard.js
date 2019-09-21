@@ -35,11 +35,13 @@ export default class WordCard extends Component{
     render(){
         return(
             <div>
-                <p>ROUND : {this.state.attempt}</p>
+                <h1>SYNONYMS</h1>
+                <h2><p>ROUND : {this.state.attempt}</p></h2>
                 { Array.from(this.state.chars).map((c,i) => <CharacterCard value={c} key={i} activationHandler={this.activeHandler} attempt={this.state.attempt}/>)}
                 <img src="https://cms.qz.com/wp-content/uploads/2016/08/gu_announcement_01.png?w=1380&h=778&strip=all&quality=75" height="200" width="300"></img>
                 <p> {this.state.completed ? this.state.word : ''} </p>
                 <p> {this.state.completed ? 'CORRECT!'  : ''} </p>
+                <h5><p>Suwaporn Wongchana 6010110378 section 01</p></h5>
             </div>
         );
     }

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
 
-var vocab = ["sleep","rest"]
-let random = parseInt(Math.random() *2)
+var vocab = ["sleep","rest","doze"]
+let random = parseInt(Math.random() *3)
 class App extends Component {
   render(){
     return (
