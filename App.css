@@ -25,13 +25,13 @@
   display: inline-block;
   text-align: center;
   width: 3em;
-  font-size: 2em;
+  font-size: 2.3em;
   box-shadow: 0 4px 8px 0 rgba(219, 192, 156, 0.644);
   margin: 1em;
   user-select: none;
   border-radius: 50%;
+  font-family: monospace;
 }
-
 .activeCard {
   color: rgb(255, 255, 255);
   background: rgb(150, 89, 99);
